@@ -7,6 +7,51 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
         <!-- Vamos a buscar nuestro CSS -->
         <link href="style.css" rel="stylesheet" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,500&family=Pirata+One&display=swap" rel="stylesheet" />
+        <!-- Complementemos Bootstrap y aprovechemos las Fuentes de Google -->
+        <style>
+            body {
+                font-family: "IBM Plex Sans", sans-serif;
+                font-weight: 400;
+                background: rgb(255, 236, 63);
+            }
+            h1 {
+                font-family: "Pirata One", cursive;
+                font-weight: 400;
+                font-size: calc(3rem + 1.5vw);
+                color:#112;
+                line-height: 1;
+            }
+            h2, h3, h4, h5, h6 {
+                font-weight: 600;
+            }
+            header {
+                background: url("img/cabecera.jpg") center bottom no-repeat;
+                background-size: cover;
+                padding: 15vh 0 0 0;
+            }
+
+            main p.lead {
+                text-align: justify;
+                letter-spacing: 0.025rem;
+                line-height: 1.6;
+            }
+
+            main p em {
+                font-weight: 500;
+            }
+
+            a {
+                color:#123;
+            }
+
+            a:hover {
+                color:#000;
+                text-decoration: none;
+                transition: all ease 0.5s;
+            }
+        </style>
         <title>Cerveza en el paladar</title>
     </head>
     <body>
